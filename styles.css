@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('images/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+}
+
+.ball {
+  width: 200px; /* Adjust the size as needed */
+  position: relative;
+  z-index: 1;
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  text-align: center;
+  color: black;
+  font-family: Arial, sans-serif;
+}
