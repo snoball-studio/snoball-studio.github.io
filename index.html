@@ -3,12 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Snøball Studio</title>
+    <title>Snoball Studio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
-        <img src="images/ball.png" alt="Ball" class="ball">
+        <div class="circle-svg">
+            <svg width="400" height="400" viewBox="-20 -20 240 240" xmlns="http://www.w3.org/2000/svg">
+                <g filter="url(#shadow)">
+                    <circle cx="100" cy="100" r="90" fill="#FFF"/>
+                    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+                        <feDropShadow dx="0" dy="0" stdDeviation="10" flood-color="rgba(0,0,0,0.1)"/>
+                    </filter>
+                </g>
+            </svg>            
+        </div>        
         <div class="text">
             <h1>STUDIO | VENTURES</h1>
             <p>hello@snoball.studio</p>
