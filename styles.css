@@ -5,7 +5,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #fff; /* Replace with your preferred background color */
+  background-color: #fff; /* Adjust background color as needed */
 }
 
 .container {
@@ -15,13 +15,13 @@ body {
   justify-content: center;
 }
 
-.circle-svg {
-  width: 400px; /* Adjust the size of the circle */
-  height: 400px;
+.pictogram {
+  width: 400px; /* Adjust size as needed */
+  height: auto;
 }
 
 .text {
-  margin-top: 20px; /* Space between the circle and the text */
+  margin-top: 20px; /* Space between the pictogram and the text */
   text-align: center;
   color: black;
   font-family: Arial, sans-serif;
